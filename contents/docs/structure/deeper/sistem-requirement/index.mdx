@@ -2,43 +2,69 @@
 title: ## System Requirement
 ---
 
-## Fungsional Requirement
-1. Manajemen Pelanggan
-    -	Pendaftaran Pelanggan: Sistem harus memungkinkan pendaftaran pelanggan baru dengan informasi seperti nama, alamat, nomor telepon, dan email.
-    -	Pencarian Pelanggan: Sistem harus memungkinkan pencarian data pelanggan berdasarkan nama atau nomor telepon.
-2. Manajemen Transaksi
-    -	Input Transaksi: Sistem harus memungkinkan kasir untuk memasukkan transaksi laundry, termasuk jenis layanan, berat, dan harga.
-    -	Pembayaran: Sistem harus mendukung berbagai metode pembayaran (tunai, kartu kredit, e-wallet).
-    -	Penerimaan: Sistem harus dapat mencetak atau mengirimkan struk pembayaran kepada pelanggan.
-3. Manajemen Layanan
-    -	Daftar Layanan: Sistem harus memungkinkan admin untuk mengelola daftar layanan laundry (misalnya, cuci kering, cuci basah, setrika).
-    -	Harga Layanan: Sistem harus memungkinkan admin untuk mengatur harga untuk setiap jenis layanan.
-4. Manajemen Inventaris
-    -	Pengelolaan Stok: Sistem harus memungkinkan pengelolaan stok bahan baku (detergen, pewangi, dll.) yang digunakan dalam proses laundry.
-    -	Peringatan Stok: Sistem harus memberikan notifikasi ketika stok bahan baku mencapai batas minimum.
-5. Laporan
-    -	Laporan Penjualan: Sistem harus dapat menghasilkan laporan penjualan harian, mingguan, dan bulanan.
-    -	Laporan Pelanggan: Sistem harus dapat menghasilkan laporan tentang pelanggan yang sering menggunakan layanan.
+# Kebutuhan Perangkat Keras
 
-## Non-Fungsional Requirement
-1. Kinerja
-    -	Sistem harus mampu menangani minimal 100 transaksi per hari tanpa penurunan kinerja.
-2. Keamanan
-    -	Data pelanggan dan transaksi harus dienkripsi dan dilindungi dengan sistem otentikasi yang kuat.
-    -	Sistem harus memiliki backup data secara berkala.
-3. Usability
-    -	Antarmuka pengguna harus intuitif dan mudah digunakan oleh kasir yang tidak memiliki latar belakang teknis.
-    -	Sistem harus menyediakan panduan pengguna dan dokumentasi.
-4. Kompatibilitas
-    -	Sistem harus dapat berjalan di berbagai perangkat, termasuk komputer desktop dan tablet.
-    -	Sistem harus kompatibel dengan printer struk yang umum digunakan.
-5. Dukungan dan Pemeliharaan
-    -	Sistem harus menyediakan dukungan teknis 24/7.
-    -	Pembaruan sistem harus dilakukan secara berkala untuk meningkatkan fitur dan keamanan.
+## Server
+        1. CPU : Minimal Intel Core i3.
+        2. RAM : Minimal  4 GB. .
+        3. Storage : Minimal 120 GB SSD untuk data dan file.
+        4. Network : Internet minimal 50 Mbps.
 
-## Teknologi yang Digunakan
-    1.	Bahasa Pemrograman: PHP, Html, Javascrip, dan Css.
-    2.	Database: MySQL.
-    3.	Framework: Bootstrap.
-    4.	Platform: Web-based atau aplikasi desktop.
+# Komputer untuk Kasir (Pengguna)
+        1. Prosesor: Minimal Intel Core i3 generasi ke-6 atau AMD Ryzen 3.
+        2. RAM: Minimal 4 GB.
+        3. Penyimpanan: Minimal 120 GB HDD atau SSD.
+        4. Layar: Monitor Minimal ukuran minimal 15 inch.
+        5. Browser: Versi terbaru dari Chrome, Firefox, atau Edge.
+        6. Sistem Operasi: Minimal Windows 10, Linux, atau macOS.
+
+
+# Kebutuhan Perangkat Lunak
+
+## Server
+1. Web Server : Apache HTTP Server.
+2. Database : MySQL atau PostgreSQL.
+3. Bahasa Pemrograman : PHP dan JavaScript.
+4. Framework : Bootstrap.
+5. OS : Windows Server.
+
+## Pengguna
+1. Web Browser : Chrome, Firefox, Edge, dan Safari (terbaru).
+2. Responsif : Desain harus bekerja optimal pada layar dengan resolusi mulai dari 360x640 (mobile) hingga 1920x1080 (desktop).
+
+# Kebutuhan Jaringan
+
+1. HTTP/HTTPS untuk komunikasi yang aman
+2. Konfigurasi firewall untuk melindungi server dari akses yang tidak sah.
+3. Sertifikat SSL Untuk enkripsi data.
+
+# Kebutuhan Keamanan
+
+1. Enkripsi data pengguna (misalnya, menggunakan HTTPS).
+2. Perlindungan terhadap serangan DDoS.
+3. Sistem autentikasi yang aman
+4. Sistem backup otomatis untuk database dan file penting.
+5. Rencana pemulihan bencana untuk memastikan kelangsungan operasional.
+
+
+# Non-Fungsional Requirement
+
+## Kinerja
+	Sistem harus mampu menangani minimal 100 transaksi per hari tanpa penurunan kinerja.
+
+## Keamanan
+        1. Data pelanggan dan transaksi harus dienkripsi dan dilindungi dengan sistem otentikasi yang kuat.
+        2. Sistem harus memiliki backup data secara berkala.
+
+## Usability
+        1. Antarmuka pengguna harus intuitif dan mudah digunakan oleh kasir yang tidak memiliki latar belakang teknis.
+        2. Sistem harus menyediakan panduan pengguna dan dokumentasi.
+
+## Kompatibilitas
+        1. Sistem harus dapat berjalan di berbagai perangkat, termasuk komputer desktop dan tablet.
+        2. Sistem harus kompatibel dengan printer struk yang umum digunakan.
+
+## Dukungan dan Pemeliharaan
+        1. Sistem harus menyediakan dukungan teknis 24/7.
+        2. Pembaruan sistem harus dilakukan secara berkala untuk meningkatkan fitur dan keamanan.
 
